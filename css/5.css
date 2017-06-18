@@ -110,18 +110,20 @@ section {
 .info:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-  a {
+#title {
     color: #26a69a;
     font-size: 16px;
-    margin:0px 20px 0px 20px; }
-  p {
+    padding:5px 20px 0px 20px;
+    margin:0px 0px 0px 0px; }
+#desc {
     color: #000000;
     font-size: 16px;
-    margin:0px 20px 0px 20px; }	
+	padding:0px 20px 5px 20px;
+    margin:0px 0px 0px 0px; }	
 /* =Info Bar
 -------------------------------------------------------------- */
 
-	.divider{margin:8px 20px 8px 20px}
+	.divider{margin:5px 20px 5px 20px}
 	.divider{height:1px;overflow:hidden;background-color:#e0e0e0}
 
 
@@ -144,7 +146,7 @@ header {
   transition: height 0.3s; }
   header h1#country {
 	position: fixed;
-	top: 130px;
+	top: 160px;
 	left: 140px;
     display: inline-block;
     height: 30px;
@@ -161,7 +163,7 @@ header {
     transition: all 0.3s; }
   header h1#capital {
 	position: fixed;
-	top: 160px;
+	top: 190px;
 	left: 140px;
     display: inline-block;
     height: 30px;
@@ -238,25 +240,25 @@ header {
     height: 75px; }
     header.smaller h1#country {
 	position: fixed;
-	top: 0px;
-	left: 90px;
-	color: #eeeeee;
-      height: 20px;
-      line-height: 10px;
-      font-size: 18px; }
-    header.smaller h1#capital {
-	position: fixed;
 	top: 25px;
 	left: 90px;
 	color: #eeeeee;
-      height: 20px;
-      line-height: 0px;
+      height: 16px;
+      line-height: 16px;
+      font-size: 16px; }
+    header.smaller h1#capital {
+	position: fixed;
+	top: 48px;
+	left: 90px;
+	color: #eeeeee;
+      height: 16px;
+      line-height: 16px;
       font-size: 16px; }
 	  
 	header.smaller h1#dial {
 	opacity: 1;
 	position: fixed;
-	top: 0px;
+	top: 25px;
 	right: 10px;
 	color: #eeeeee;
       height: 16px;
@@ -266,7 +268,7 @@ header {
 	header.smaller h1#tzone {
 		opacity: 1;
 	position: fixed;
-	top: 20px;
+	top: 48px;
 	right: 10px;
 	color: #eeeeee;
       height: 16px;
@@ -281,7 +283,7 @@ header {
       height: 50px;
 	  width: 50px;
       line-height: 50px;
-	  border: 1px solid #eeeeee;
+	  border: 1px solid #dddddd;
       font-size: 30px; }
 	header.smaller img#map {
 	position: fixed;

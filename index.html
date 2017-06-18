@@ -10,15 +10,14 @@
 <title>Czech Republic</title>
     
 
-<link rel="stylesheet" href="css/3.css" />
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>  
+<link rel="stylesheet" href="css/5.css" />
 <!-- js -->
 <script src="js/3.js"></script>
 <script>
     function init() {
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 50,
+                shrinkOn = 30,
                 header = document.querySelector("header");
             if (distanceY > shrinkOn) {
                 classie.add(header,"smaller");
@@ -41,7 +40,7 @@
 <div id="wrapper">
 
 <header>
-<img src="ez-map.gif" id="map">
+<a href="ez-map.gif"><img  src="ez-map.gif" id="map"></a>
 
     <div class="container clearfix">
 	<img src="ez-lgflag.png" id="flag">
@@ -66,71 +65,55 @@
 </div><!-- /#wrapper -->
 <div id="content">
 
-<div class="collection">
-<a href="#!" class="collection-item">
-Independence
-<div class="divider"></div>
-<p class="black-text">1965 (From Czechoslovakia)
-</p></a></div>	
   
   
- <div class="collection">
-<a href="#!" class="collection-item">
-Area
+<div class="info">
+<p id="title">Independence</p>
 <div class="divider"></div>
-<p class="black-text">1, 66, 430 km2
-</p></a></div>	 
+<p id="desc">1965 (From Czechoslovakia)</p>
+</div>	 
 
   
-<div class="collection">
-<a href="#!" class="collection-item">
-Independence
+
+<div class="info">
+<p id="title">Area</p>
 <div class="divider"></div>
-<p class="black-text">1965 (From Czechoslovakia)
-</p></a></div>	
+<p id="desc">1, 66, 430 km2</p>
+</div>	 
   
   
- <div class="collection">
-<a href="#!" class="collection-item">
-Area
+  
+<div class="info">
+<p id="title">Independence</p>
 <div class="divider"></div>
-<p class="black-text">1, 66, 430 km2
-</p></a></div>	 
+<p id="desc">1965 (From Czechoslovakia)</p>
+</div>	 
 
   
- <div class="collection">
-<a href="#!" class="collection-item">
-Independence
+
+<div class="info">
+<p id="title">Area</p>
 <div class="divider"></div>
-<p class="black-text">1965 (From Czechoslovakia)
-</p></a></div>	
+<p id="desc">1, 66, 430 km2</p>
+</div>	 
   
   
- <div class="collection">
-<a href="#!" class="collection-item">
-Area
+  <div class="info">
+<p id="title">Independence</p>
 <div class="divider"></div>
-<p class="black-text">1, 66, 430 km2
-</p></a></div>	 
+<p id="desc">1965 (From Czechoslovakia)</p>
+</div>	 
 
   
- <div class="collection">
-<a href="#!" class="collection-item">
-Independence
-<div class="divider"></div>
-<p class="black-text">1965 (From Czechoslovakia)
-</p></a></div>	
-  
-  
- <div class="collection">
-<a href="#!" class="collection-item">
-Area
-<div class="divider"></div>
-<p class="black-text">1, 66, 430 km2
-</p></a></div>	 
 
+<div class="info">
+<p id="title">Area</p>
+<div class="divider"></div>
+<p id="desc">1, 66, 430 km2</p>
+</div>	 
   
   
+    
   
 </div>	
 <!--Import jQuery before materialize.js-->
