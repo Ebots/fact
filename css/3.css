@@ -85,9 +85,10 @@ a:hover {
   background-color: #fff;
   padding-top: 150px; }
 
-.container {
-  width: 80%;
+#content {
+  width: 100%;
   margin: 0 auto;
+  margin-top: 250px;
   padding: 0 30px; }
 
 section {
@@ -136,6 +137,7 @@ header {
   height: 150px;
   overflow: hidden;
   position: fixed;
+  
   top: 0;
   left: 0;
   z-index: 999;
@@ -148,7 +150,7 @@ header {
   header h1#country {
 	position: fixed;
 	top: 130px;
-	left: 160px;
+	left: 140px;
     display: inline-block;
     height: 30px;
     line-height: 30px;
@@ -165,7 +167,7 @@ header {
   header h1#capital {
 	position: fixed;
 	top: 160px;
-	left: 160px;
+	left: 140px;
     display: inline-block;
     height: 30px;
     line-height: 30px;
@@ -193,7 +195,7 @@ header {
 
 	  position: fixed;
 	  top: 130px;
-	  left: 40px;
+	  left: 30px;
 		display: block;
 		float: none;
 		margin: 0 auto;
@@ -282,13 +284,15 @@ header {
       height: 50px;
 	  width: 50px;
       line-height: 50px;
-	  border: 3px solid #eeeeee;
+	  border: 1px solid #eeeeee;
       font-size: 30px; }
 	header.smaller img#map {
 	  opacity: 0;
       line-height: 0px; }
     header.smaller nav a {
       line-height: 75px; }
+	  
+
 
 /* =Footer
 -------------------------------------------------------------- */
